@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{77DC55C2-70B8-44BA-B78A-F54190A25C49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoList", "TodoList", "{E1C4D1D8-2CEA-434D-95CD-292D104DD27A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList", "TodoList\TodoList.csproj", "{3A2D170D-DAF5-441B-8B7A-FB732FCF5373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2D170D-DAF5-441B-8B7A-FB732FCF5373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2D170D-DAF5-441B-8B7A-FB732FCF5373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2D170D-DAF5-441B-8B7A-FB732FCF5373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2D170D-DAF5-441B-8B7A-FB732FCF5373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A2D170D-DAF5-441B-8B7A-FB732FCF5373} = {E1C4D1D8-2CEA-434D-95CD-292D104DD27A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A707EAF-4C01-49A1-96DB-BB479A25D5AC}
