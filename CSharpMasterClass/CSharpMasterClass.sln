@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{77DC55C2-70B8-44BA-B78A-F54190A25C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csproj", "{77DC55C2-70B8-44BA-B78A-F54190A25C49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomCache", "CustomCache", "{702BEEBB-C69E-49DA-B152-E7895D8A9980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCacheApplication", "CustomCacheApplication\CustomCacheApplication.csproj", "{58413E7D-CE0D-4A5B-9C48-924EBA76DF35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58413E7D-CE0D-4A5B-9C48-924EBA76DF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58413E7D-CE0D-4A5B-9C48-924EBA76DF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58413E7D-CE0D-4A5B-9C48-924EBA76DF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58413E7D-CE0D-4A5B-9C48-924EBA76DF35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58413E7D-CE0D-4A5B-9C48-924EBA76DF35} = {702BEEBB-C69E-49DA-B152-E7895D8A9980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A707EAF-4C01-49A1-96DB-BB479A25D5AC}
