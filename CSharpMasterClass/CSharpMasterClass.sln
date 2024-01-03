@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{77DC55C2-70B8-44BA-B78A-F54190A25C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csproj", "{77DC55C2-70B8-44BA-B78A-F54190A25C49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicketAggregator", "TicketAggregator", "{F006671D-CCB6-45BD-9FE1-78886D2EC166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketDataAggregator", "TicketDataAggregator\TicketDataAggregator.csproj", "{E5E74654-7E11-4527-A8EC-C268D4E453BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E74654-7E11-4527-A8EC-C268D4E453BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E74654-7E11-4527-A8EC-C268D4E453BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E74654-7E11-4527-A8EC-C268D4E453BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E74654-7E11-4527-A8EC-C268D4E453BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5E74654-7E11-4527-A8EC-C268D4E453BA} = {F006671D-CCB6-45BD-9FE1-78886D2EC166}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A707EAF-4C01-49A1-96DB-BB479A25D5AC}
