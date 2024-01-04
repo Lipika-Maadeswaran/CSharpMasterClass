@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{77DC55C2-70B8-44BA-B78A-F54190A25C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csproj", "{77DC55C2-70B8-44BA-B78A-F54190A25C49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PasswordGenerator", "PasswordGenerator", "{4E068DAA-B72A-4D91-88E9-DC7490C87F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerator", "PasswordGenerator\PasswordGenerator.csproj", "{08E0C5E1-9665-48C8-B799-B5CBF2A58016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B89F500D-0D90-44E3-9DCC-F0DE07F75BF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGeneratorTests", "PasswordGeneratorTests\PasswordGeneratorTests.csproj", "{BA76C100-AE1C-4EE6-849F-75EE5D2C4CEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,21 @@ Global
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77DC55C2-70B8-44BA-B78A-F54190A25C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E0C5E1-9665-48C8-B799-B5CBF2A58016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E0C5E1-9665-48C8-B799-B5CBF2A58016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E0C5E1-9665-48C8-B799-B5CBF2A58016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E0C5E1-9665-48C8-B799-B5CBF2A58016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA76C100-AE1C-4EE6-849F-75EE5D2C4CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA76C100-AE1C-4EE6-849F-75EE5D2C4CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA76C100-AE1C-4EE6-849F-75EE5D2C4CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA76C100-AE1C-4EE6-849F-75EE5D2C4CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08E0C5E1-9665-48C8-B799-B5CBF2A58016} = {4E068DAA-B72A-4D91-88E9-DC7490C87F4B}
+		{BA76C100-AE1C-4EE6-849F-75EE5D2C4CEF} = {B89F500D-0D90-44E3-9DCC-F0DE07F75BF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A707EAF-4C01-49A1-96DB-BB479A25D5AC}
