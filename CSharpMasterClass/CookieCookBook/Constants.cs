@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CookieCookBook
 {
-    internal class Constants
+    public class Constants
     {
         public static Regex regexForNumbers = new Regex(@"^[1-9]{0,7}$");
 
